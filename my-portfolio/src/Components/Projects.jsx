@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-
+import portfolioIcon from "./Images/Portfolio.PNG"
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projectList = [
     {
       title: "My Portfolio",
-      shortDescription: "Javascript",
+      shortDescription: "Javascript / React / CSS / HTML",
       longDescription: "This is my Portfolio",   
-      image: "/images/portfolio.gif",
+      image: portfolioIcon,
       github: "https://github.com/PhilipVTN/My-Portfolio"
     },
         {
@@ -27,7 +27,7 @@ const Projects = () => {
     },
         {
       title: "My Portfolio",
-      shortDescription: "Javascript",
+      shortDescription: "Javascript / React / CSS / HTML",
       longDescription: "This is my Portfolio",   
       image: "/images/portfolio.gif",
       github: "https://github.com/PhilipVTN/My-Portfolio"
